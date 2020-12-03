@@ -17,6 +17,11 @@ body {
 
 li {
 	font-family: 'Lucida Sans Unicode', sans-serif;
+	font-size: .9em;
+}
+
+.category {
+
 }
 
 header {
@@ -66,19 +71,23 @@ article {
 }
 
 .title {
-
+	text-decoration: underline;
 }
 
 .pub-date {
-
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: lighter;
+	font-size: .75em;
 }
 
 .blurb {
-
+	font-family: 'Lucida Sans Unicode', sans-serif;
+	font-size: .9em;
 }
 
 .read-more {
-
+	text-align: right;
+	text-decoration: underline;
 }
 
 h3 {
