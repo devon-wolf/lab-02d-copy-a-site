@@ -61,6 +61,26 @@ section {
 	/* the first section has a list that needs stylized chevron things as its bullets */
 }
 
+article {
+
+}
+
+.title {
+
+}
+
+.pub-date {
+
+}
+
+.blurb {
+
+}
+
+.read-more {
+
+}
+
 h3 {
 	color: rgb(170, 38, 38);
 }
@@ -81,7 +101,7 @@ h3 {
 	align-items: center;
 }
 
-.button {
+button {
 	background-color: lightgrey;
 	width: 100px;
 	display: flex;
@@ -89,6 +109,7 @@ h3 {
 	align-items: center;
 	border-radius: 5px;
 	font-family: 'Lucida Sans Unicode', sans-serif;
+	color: black;
 }
 
 div {
