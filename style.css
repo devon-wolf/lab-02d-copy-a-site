@@ -15,13 +15,18 @@ body {
 	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+input {
+	border-radius: 10px;
+}
+
 li {
 	font-family: 'Lucida Sans Unicode', sans-serif;
 	font-size: .9em;
 }
 
 .category {
-
+	list-style: none;
+	/* the first section has a list that needs stylized chevron things as its bullets */
 }
 
 header {
@@ -36,13 +41,11 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* the flex formatting that brought the title to the center did not apply to the superscript element, need to fix */
 }
 
 .login {
-	display: flex;
-	flex-direction: column;
 	font-family: 'Lucida Sans Unicode', sans-serif;
+	font-size: .75em;
 }
 
 nav {
@@ -51,7 +54,12 @@ nav {
 	border: solid 1px black;
 	background-color: rgb(170, 38, 38);
 	color: white;
-	font-family: 'Lucida Sans Unicode', sans-serif; 
+	font-family: 'Lucida Sans Unicode', sans-serif;
+	font-size: .85em;
+}
+
+.end-nav {
+	display: flex;
 }
 
 main {
@@ -63,7 +71,6 @@ main {
 
 section {
 	border: solid 1px black;
-	/* the first section has a list that needs stylized chevron things as its bullets */
 }
 
 article {
@@ -88,6 +95,7 @@ article {
 .read-more {
 	text-align: right;
 	text-decoration: underline;
+	font-size: .90em;
 }
 
 h3 {
@@ -100,7 +108,8 @@ h3 {
 
 .about-accounts {
 	border: solid 1px black;
-	/* need to override the li style for this element so it shows the circles/bullets */
+	border-radius: 15px;
+	background-color: rgb(240, 238, 238);
 }
 
 .section-footer {
@@ -132,8 +141,14 @@ footer {
 	display: grid;
 	grid-template-columns: 30% 30% 30%;
 	grid-template-rows: 100%;
+	font-size: .75em;
 }
 
 .footer-section {
 	border: solid 1px black;
+}
+
+.footer-list {
+	list-style: none;
+	text-decoration: underline;
 }
